@@ -17,9 +17,9 @@ class WhmcsServiceProvider extends ServiceProvider
     public function boot()
     {
         if ($this->isLaravel()) {
-            $source = dirname(__DIR__).'/config/whmcs.php';
-            $this->publishes([$source => config_path('whmcs.php')]);
+            $source = dirname(__DIR__) . '/config/whmcs.php';
             $this->mergeConfigFrom($source, 'whmcs');
+            $this->publishes([$source => $this->app->configPath('whmcs.php')]);
         }
     }
 
@@ -62,3 +62,4 @@ class WhmcsServiceProvider extends ServiceProvider
         return !preg_match('/lumen/i', $this->app->version());
     }
 }
+
