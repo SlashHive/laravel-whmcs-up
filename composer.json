@@ -1,6 +1,6 @@
 {
-	"name": "sburina/laravel-whmcs-up",
-	"description": "WHMCS API client and user provider for Laravel",
+	"name": "slashhive/laravel-whmcs-up",
+	"description": "WHMCS API client and user provider for Laravel: Froked from sburina/laravel-whmcs-up",
 	"type": "library",
 	"license": "MIT",
 	"minimum-stability": "stable",
@@ -8,6 +8,11 @@
 		{
 			"name": "Sinisa Burina",
 			"email": "sburina@gmail.com"
+		},
+		
+		{
+			"name": "Slashhive",
+			"email": "slashhive@poornam.com"
 		}
 	],
 	"require": {
