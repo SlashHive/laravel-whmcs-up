@@ -1,6 +1,6 @@
 {
 	"name": "slashhive/laravel-whmcs-up",
-	"description": "WHMCS API client and user provider for Laravel: Froked from sburina/laravel-whmcs-up",
+	"description": "WHMCS API client and user provider for Laravel: Forked from - sburina/laravel-whmcs-up",
 	"type": "library",
 	"license": "MIT",
 	"minimum-stability": "stable",
